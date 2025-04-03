@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marianne Fisch</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Entre em contato</h1>
+            <a href="./index.html">Home</a>
+            <a href="./contato.html">Contato</a>
+            <a href="./sobre.html">Sobre</a>
+        </nav>
+        <br>
+        <img src="imagens/banner.jpg">
+    </header>
+    <main>
+        <article>
+            <form>
+                <br><br>
+                <fieldset>
+                    <legend><strong>Cadastro</strong></legend>
+                    <br>
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" placeholder="Digite o seu nome:" autocomplete="on" required/>
+                    <br><br>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Digite o seu email:" required/>
+                    <br><br>
+                    <label for="dt_nasc">Data de Nascimento</label>
+                    <input type="date" name="dt_nasc" placeholder="Aniversário:" required/>
+                    <br><br>
+                 </fieldset>
+
+                <br><br>
+                 <fieldset>
+                    <legend><strong>Usuário</strong></legend>
+                    <br>
+                    <label for="user">Usuário</label>
+                    <input type="text" name="user" placeholder="Digite seu usuário:" required/>
+                    <br><br>
+                    <label for="password">Senha</label>
+                    <input type="password" name="senha" placeholder="Digite sua senha:" required/>
+                    <br><br>
+                </fieldset>
+
+                <br><br>
+                <fieldset>
+                <legend><strong>Endereço</strong></legend>
+                <br>
+                <label for="rua">Rua</label>
+                <input type="text" name="rua" placeholder="Digite o nome da rua que você mora:" required/>
+                <br><br>
+                <label for="numero">Número</label>
+                <input type="number" name="numero" placeholder="Digite o número da sua casa:" required/>
+                <label for="CEP">CEP</label>
+                <input type="text" name="CEP" placeholder="Digite o CEP da sua rua:" required/>
+                <br><br>
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" placeholder="Digite nome do bairro onde você mora:" required/>
+                <br><br>
+                <label for="cidade">Cidade</label>
+                <select name="cidade" required>
+                    <option></option>
+                    <option>Passo Fundo</option>
+                    <option>Carazinho</option>
+                    <option>Marau</option>
+                    <option>Soledade</option>
+                    <option>Não me toque</option>
+                    <option>Ibiruba</option>
+                    <option>Espumoso</option>
+                </select>
+                <br><br>
+                <label for="estado">Estado</label>
+                <select name="estado" required>
+                    <option></option>
+                    <option select>Rio Grande do Sul</option>
+                    <option>Santa Catarina</option>
+                    <option disabled>Paraná</option>
+                </select>
+                <br><br>
+            </fieldset>
+            <br><br>
+
+                <fieldset>
+                    <legend>Diversos</legend>
+                    <br>
+                    <input type="color"/>
+                    <input type="file">
+
+                    <br><br>
+
+                    <p>Deseja receber propagandas?</p>
+                    <input type="radio" id="sim" name="propaganda">
+                    <label for="sim">Sim</label>
+                    <input type="radio" id="nao" name="propaganda">
+                    <label for="nao">Não</label>
+
+                    <br><br>
+                    <p>Você leu e concorda com os termos de uso do nosso site?</p>
+                    <label for="termos">Sim</label>
+                    <input type="checkbox" name="termos"/>
+                    <br><br>
+
+                </fieldset>
+                <br><br>
+                <input type="submit" value="Enviar"/>
+
+            </form>
+        </article>
+    </main>
+    <footer></footer>
+</body>
+</html>
